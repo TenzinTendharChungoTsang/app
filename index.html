@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/style.css">
+    <title>Termin Eintragen!</title>
+  
+</head>
+<body>
+    <h1>Ihr tragt den Tag und wenn möglich die Uhrzeit, wann ihr frei seid</h1><hr>
+   
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Wer bist du" required>
+        <button onclick="document.getElementById('name').value=''">Click here to clear the field</button><br><br><hr>
+        <label for="tag">Tag und wenn möglich die Uhrzeit</label>
+         <input  type="text" id="comment-box" name="tag" placeholder="Sag mal wann du denn Zeit hast" required>
+        <button onclick="document.getElementById('comment-box').value=''">Click here to clear the field</button><hr>
+        <button  id="post" class="post">Post</button><hr>
+    <ul id="unordered">
+
+    </ul>
+    <hr>
+    <h2>Location: Karlsplatz</h2><hr>
+    <script src="./index.js"></script>
+
+</body>
+</html>
